@@ -1,0 +1,349 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cairo&family=Exo+2:wght@300&family=Inconsolata:wght@200&family=Open+Sans:wght@300&family=Poppins:ital,wght@0,100;0,200;0,300;0,500;0,600;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,700;1,800;1,900&family=Raleway:wght@300&family=Roboto+Mono:wght@100&family=Roboto:wght@300&family=Supermercado+One&family=Tajawal:wght@200;400&family=Ubuntu:wght@300;700&display=swap');
+*{
+    font-family: 'Tajawal', sans-serif;
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+header{
+    background-color: rgb(22, 22, 20);
+    width: 100%;
+    position: fixed;
+    z-index: 999;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 200px;
+}
+
+.logo{
+    text-decoration: none;
+    color:white;
+    text-transform: uppercase;
+    font-family:monospace;
+    font-weight: 700;
+    font-size: 1.8em;
+
+}
+
+.nav a{
+color: white;
+text-decoration: none;
+font-family: 'Tajawal', sans-serif;
+font-size: 1.1em;
+font-weight: 500;
+padding: 30px;
+margin: 0 20px;
+}
+
+.nav a:hover{
+    color: rgb(226, 85, 66);
+}
+
+.blackB{
+    height: 100%;
+    width: 100%;
+    background: black;
+    opacity: 0.7;
+position: fixed;
+z-index: 998;
+right:-100%;
+transition: all  0.5s ease;
+}
+
+.menuBtn img{
+    width: 30px;
+    cursor: pointer;
+    transition: all 0.5s ease-in-out;
+    }
+.menu{
+    width: 260px;
+    height: 100%;
+   
+    background: rgb(22, 22, 20);
+    display: block;
+    justify-content: center;
+    position: fixed;
+    z-index: 999;
+    right:-100%;
+    transition: all 0.4s ease;
+}
+.mclose{
+    
+    margin: 10px;
+}
+.menu h1{
+    font-size: 23px;
+    color: white;
+    margin: 10px;
+}
+.menu .btns{
+    margin-top: 70px;
+    display: block;
+    justify-content: center;
+   width: 70%;
+}
+.menu .btns a{
+    padding: 8px 5px;
+    margin: 8px 10px;
+    padding-right: 7px;
+    display: flex;
+    text-decoration: none;
+    cursor: pointer;
+    color: white;
+    background: none;
+    border: 1px solid white;
+    border-radius: 3px;
+    transition: all 0.2s ease;
+}
+
+.menu .btns a:hover{
+   color: black;
+    background: rgb(248, 248, 248)
+}
+
+section{
+padding: 100px 200px;
+}
+ .main{
+     width: 100%;
+     min-height: 100vh;
+     display: flex;
+     align-items: center;
+     background: url(images/back.gif) no-repeat;
+     background-size: cover;
+     background-position: center;
+     background-attachment: fixed;
+ }
+
+ .main .backg{
+background-color: rgba(1, 1, 1, 0.705);
+padding: 10px 30px;
+border-radius: 5px;
+ }
+
+ .main h2{
+     color: rgb(255, 255, 255);
+     font-size: 1.4em;
+     font-weight: 500;
+ }
+
+ .main h2 span{
+     display: inline-block;
+     margin-top: 10px;
+     color:rgb(226, 85, 66) ;
+     font-size: 3em;
+     font-weight: 600;
+ }
+
+ .main h3{
+     color: white;
+     font-size: 2em;
+     font-weight: 500;
+     letter-spacing: 1px;
+     margin-bottom: 30px;
+
+ }
+
+ .main-btn{
+     color: white;
+     background-color: rgb(226, 85, 66);
+     text-decoration: none ;
+     font-size: 1.1em;
+     font-weight: 600;
+     display: inline-block;
+     padding: 0.9375em 2.1875em;
+     letter-spacing: 1px;
+     border-radius: 10px;
+     margin-bottom: 40px;
+     transition: 0.75s ease;
+ }
+
+ .main-btn:hover{
+     background-color: rgb(110, 41, 32);
+     
+ }
+
+ .icons a{
+  color: rgb(226, 85, 66);
+  font-size: 1.7em;
+  margin-right: 20px;
+ }
+
+ .title{
+     display: flex;
+     justify-content: center;
+     color:rgb(226, 85, 66);
+     font-size: 2.2em;
+     font-weight: 700;
+     margin-bottom: 30px;
+ }
+
+ .content{
+     display: flex;
+     justify-content: center;
+     flex-direction: row;
+     flex-wrap: wrap;
+
+ }
+
+ .card{
+     background-color: white;
+     width: 21.25em;
+     box-shadow: 0 5px 25px rgba(1 1 1 / 15%);
+     border-radius: 10px;
+     padding: 25px;
+     margin: 15px;
+ }
+  .icon{
+      font-size: 4em;
+      text-align: center;
+      
+  }
+
+  .info{
+      text-align: center;
+  }
+
+  .info h3{
+      font-size: 1.2em;
+      font-weight: 600;
+      margin: 10px;
+      color:rgb(124, 50, 38);
+  }
+
+  .projects{
+      background-color:rgb(22, 22, 20) ;
+  }
+
+  .projects .content{
+   margin-top: 30px;
+  }
+
+  .prjcard{
+      background-color: white;
+      border: 1px solid white;
+      min-height: 14em;
+      width: 19em;
+      overflow: hidden;
+      border-radius: 10px;
+      margin: 20px;
+      transition: 0.7s ease;
+  }
+
+  .prjcard:hover .prjimg{
+      opacity: 0.95;
+  }
+
+  .prjimg img{
+width: 100%;
+  }
+
+  .prjinf{
+      padding: 1em;
+  }
+
+  .prjc{
+      font-size: 0.8em;
+      color: #000;
+  }
+
+  .prjt{
+      display: flex;
+      justify-content:space-between;
+      text-transform: uppercase;
+      font-weight: 800;
+      margin: 10px;
+  }
+
+  .mored{
+      text-decoration: none;
+      color: rgb(226, 85, 66) ;
+  }
+
+  .mored:hover{
+      color: rgb(192, 29, 8);
+  }
+
+  .footer{
+      background-color: rgb(22, 22, 20);
+      color: white;
+      padding: 2em;
+      display: flex;
+      justify-content: space-between;
+  }
+
+  .footertitle span{
+      color: rgb(226, 85, 66);
+  }
+
+  @media (max-width:1023px){
+      header{
+          padding: 12px 20px;
+      }
+      .nav a{
+          padding-left: 10px;
+      }
+.title{
+    font-size: 1.8em;
+}
+
+section{
+    padding: 80px 20px;
+}
+
+.main h2{
+    font-size: 1em;
+}
+
+.main h3{
+    font-size: 1.6em;
+}
+.content{
+    flex-direction: column;
+    align-items: center;
+}
+  }
+
+  @media (max-width:641px){
+      body{
+          font-size: 12px;
+      }
+      .main h2{
+        font-size: 0.8em;
+    }
+    
+    .main h3{
+        font-size: 1.4em;
+    }
+  }
+
+  @media (max-width:300px){
+    body{
+        font-size: 10px;
+}
+
+  }
+  
+@media (min-width:641px) {
+    .menuBtn{
+        visibility: hidden;
+   }
+   
+}
+
+@media (max-width:641px) {
+    .nav{
+        visibility: hidden;
+    }
+   
+}
+@media (max-width:895px) {
+  
+    .main .backg{
+      margin-top:350px;
+         }
+}
