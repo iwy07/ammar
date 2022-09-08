@@ -191,6 +191,7 @@ margin-right: -10px;
     z-index: 99;
     position: absolute;
     width: 100%;
+    height: auto;
     clip-path: circle(0% at 0 50%);
  }
 
